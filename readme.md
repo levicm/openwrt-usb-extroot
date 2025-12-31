@@ -21,6 +21,8 @@ Configures the `/dev/sda1` partition (formatted as ext4) of your USB drive as th
 
 ### 2. swap-to-sda2.sh
 Enables and configures the `/dev/sda2` partition (formatted as linux-swap) of your USB drive as swap space. The script:
+- Installs the required packages for USB and ext4 support.
+- Checks if the device is present.
 - Checks if the partition exists and is properly formatted.
 - Activates swap.
 - Configures fstab via UCI to enable swap automatically on every boot.
