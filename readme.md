@@ -3,6 +3,11 @@
 
 This project contains two scripts to make it easy to expand your OpenWRT router's storage using a USB drive: one to configure extroot (expanding the main filesystem) and another to enable and configure swap (virtual memory).
 
+**Reference:**
+This project was based on the official OpenWRT documentation:
+https://openwrt.org/docs/guide-user/additional-software/extroot_configuration
+
+
 ## Scripts
 
 ### 1. extroot.sh
