@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "*** Extroot Setup Script ***"
-echo "This script will set up extroot on /dev/sda1 for your OpenWrt device."
+echo "*** Swap to sda2 Script ***"
+echo "This script will set up swap on /dev/sda2 for your OpenWrt device."
 echo "Powered By Levi Mota"
 
 # Install required packages
